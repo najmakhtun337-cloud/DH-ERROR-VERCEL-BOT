@@ -1,0 +1,17 @@
+{
+  "name": "dh-error-vercel-bot",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node backend/server.js"
+  },
+  "engines": {
+    "node": "20.x"
+  },
+  "dependencies": {
+    "@adiwajshing/baileys": "^5.0.0",
+    "express": "^4.19.2",
+    "qrcode-terminal": "^0.12.0",
+    "node-fetch": "^3.3.1"
+  }
+}
