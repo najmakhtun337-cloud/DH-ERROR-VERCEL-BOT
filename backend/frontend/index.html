@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>DH ERROR Bot Dashboard</title>
+<style>
+body{margin:0;background:#000;color:#fff;font-family:system-ui;display:flex;justify-content:center;align-items:center;height:100vh}
+.card{width:380px;background:#0b0b0b;padding:30px;border-radius:16px;text-align:center}
+h1{margin:0;font-size:26px}
+p{color:#aaa;font-size:14px}
+input{width:100%;padding:14px;margin-top:18px;background:#111;border:none;border-radius:10px;color:#fff;font-size:15px}
+button{width:100%;padding:14px;margin-top:14px;border:none;border-radius:12px;background:#00ff99;color:#000;font-size:16px;cursor:pointer}
+.link{margin-top:14px;background:#111;color:#fff}
+.footer{margin-top:18px;font-size:12px;color:#555}
+#code{margin-top:16px;color:#00ff99;font-size:20px;letter-spacing:2px}
+</style>
+</head>
+<body>
+<div class="card">
+<h1>DH ERROR</h1>
+<p>Real WhatsApp Mini Bot</p>
+<input id="num" placeholder="+91XXXXXXXXXX">
+<button onclick="getCode()">🔑 Generate Pairing Code</button>
+<div id="code"></div>
+<button class="link" onclick="openLink('https://whatsapp.com/channel/0029VbBQQ6v4Y9lenR8ROD3O')">📢 Join Channel</button>
+<button class="link" onclick="openLink('https://chat.whatsapp.com/Hw0JIQgGHco8BL6699CDN')">👥 Join Group</button>
+<div class="footer">Owner • CK-ERROR</div>
+</div>
+<script>
+function getCode(){
+  document.getElementById("code").innerText="Scan QR in console to connect bot";
+}
+function openLink(url){window.open(url,"_blank");}
+</script>
+</body>
+</html>
